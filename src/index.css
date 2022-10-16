@@ -1,6 +1,13 @@
 body{
-
+  background-image: url('./images/837344.jpeg');
+  background-size: contain;
   margin: 0;
-  background-color: darkslategrey;
-  color: bisque;
+  color: blanchedalmond;
+  font-size: x-large;
+
+  min-height: 50px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
