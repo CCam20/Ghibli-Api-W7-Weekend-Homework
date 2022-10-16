@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Hangyaku";
+  src: url("../fonts/Hangyaku-7BG0P.ttf");
+}
+
 .list {
   display: flex;
   flex-wrap: wrap;
@@ -7,6 +12,7 @@
 
 }
 .App{
+  font-family: 'Hangyaku', 'Times New Roman', Times, serif
 }
 header{
   height: 20vmin;
@@ -28,6 +34,7 @@ header{
 	padding:7px 25px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #e1e2ed;
+  font-family: 'Hangyaku', 'Times New Roman', Times, serif
 }
 .btn:hover {
 	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
